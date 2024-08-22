@@ -19,5 +19,5 @@ struct Main {
 if #available(macOS 10.15, *) {
     Main.run()
 } else {
-    print("This version of macOS does not support the monitor features.")
+    print("This version of macOS does not support the monitor features. Try with compatible versions")
 }
